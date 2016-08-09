@@ -1,0 +1,22 @@
+This project requires THREE scripts:
+  media.py
+  entertainment_center.py
+  fresh_tomatoes.py
+
+and THREE standard Python libraries:
+  webbrowser
+  os
+  re
+
+To run the project run:
+  > python entertainment_center.py
+
+Steps:
+  1. entertainment_center.py builds the movie instances by using the Movie class
+     from media.py
+  2. entertainment_center.py passes the movie instances to fresh_tomatoes.py
+     which then builds the HTML code
+
+Output:
+  In the same directory as entertainment_center.py a new file (fresh_tomatoes.html)
+  should be created
